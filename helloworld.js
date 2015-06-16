@@ -1,1 +1,2 @@
-console.log("Hello world!")
+def fizzbuzz
+numbers = [1..100]
