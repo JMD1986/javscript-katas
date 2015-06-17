@@ -1,4 +1,4 @@
-/* global response */
+/* global console */
 'use strict';
 
 var ageVerifier = function (age) {
