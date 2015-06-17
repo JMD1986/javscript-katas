@@ -1,7 +1,6 @@
-var theAge = Number(prompt("enter your age", ""));
-if (theAge >= 21) {
-console.log("you're over 21")
+var theAge = function(age) {
+  if (age > 21)
+    condolr.log("Age is greater than 21");
+  else
+    console.log("Age is greater than 21");
 }
-else {
-  console.log("you're under 21")
-};
