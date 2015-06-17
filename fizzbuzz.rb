@@ -1,17 +1,12 @@
-class Fizzbuzz
-  def fizzbuzz
-     array = []
-    (1..100).each do |number|
-      if number % 5 == 0 && number % 3 == 0
-        array << "fizzbuzz"
-      elsif number % 5 == 0
-        array << "fizz"
-      elsif number % 3 == 0
-        array << "buzz"
+ 1.upto(100) do |n|
+      if n % 5 == 0 && n % 3 == 0
+        puts "fizzbuzz"
+      elsif n % 5 == 0
+        puts "fizz"
+      elsif n % 3 == 0
+        puts "buzz"
       else
-        array << number
+        puts n
       end
     end
-    puts array
-  end
-end
+
